@@ -1,12 +1,10 @@
 package ex10;
 
 public class ordenacao {
-  // Interface Strategy para os métodos de ordenação
   interface SortingStrategy {
       void sort(int[] array);
   }
 
-  // Implementações concretas das estratégias de ordenação
   static class InsertionSort implements SortingStrategy {
       public void sort(int v[]) {
           int i, j;
@@ -53,7 +51,6 @@ public class ordenacao {
       }
   }
 
-  // Classe que utiliza o padrão Strategy
   static class SortingContext {
       private SortingStrategy strategy;
 
@@ -70,7 +67,6 @@ public class ordenacao {
       }
   }
 
-  // Classe de teste
   public static class SortingTest {
       public static void main(String[] args) {
           int[] array = {5, 3, 8, 1, 2, 7, 4, 6};
