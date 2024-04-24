@@ -1,4 +1,4 @@
-package ex1;
+package ex01;
 
 public class GerenciaBonus implements BonusStrategy {
     

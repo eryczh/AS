@@ -1,4 +1,4 @@
-package ex6;
+package ex06;
 
 public class Cenario {
     private static Cenario cenario = null;
