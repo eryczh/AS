@@ -1,4 +1,4 @@
-package ex9;
+package ex09;
 
 public class Impostos {
     class ImpostoIP1 implements ImpostoStrategy {

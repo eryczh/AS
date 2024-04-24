@@ -1,4 +1,4 @@
-package ex9;
+package ex09;
 
 public interface ImpostoStrategy {
     double calcularImposto(double orcamento);
