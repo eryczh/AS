@@ -2,6 +2,7 @@ package ex17;
 
 
 public interface Tanque {
+    String criarTanque();
     void setCorTanque(CoresRGB cor);
     CoresRGB getCorTanque();
     CoresRGB getCorCanhao();

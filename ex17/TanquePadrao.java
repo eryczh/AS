@@ -1,7 +1,5 @@
 package ex17;
 
-import batalhatanques.CoresRGB;
-
 public class TanquePadrao implements Tanque {
     private double x, y;
     private CoresRGB corTanque;
@@ -50,5 +48,10 @@ public class TanquePadrao implements Tanque {
     @Override
     public void atirar() {
         System.out.println("Atirando...");
+    }
+
+    @Override
+    public String criarTanque() {
+        return "";
     }
 }
