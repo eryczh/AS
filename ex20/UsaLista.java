@@ -1,7 +1,5 @@
 package ex20;
 
-import modelo.Produto;
-
 public class UsaLista {
     public static void main(String[] args) {
         ListaFacade listaFacade = new ListaFacade();
