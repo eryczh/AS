@@ -1,7 +1,7 @@
 package ex15;
 
 // componente leaf //
-class Leaf implements Component {
+public class Leaf implements Component {
  private String name;
 
  public Leaf (String name) {

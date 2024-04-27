@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // componente composto //
-class Composite implements Component {
+public class Composite implements Component {
     private List<Component> children = new ArrayList<>();
 
     public void add(Component component) {

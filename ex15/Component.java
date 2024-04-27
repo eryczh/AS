@@ -1,7 +1,7 @@
 package ex15;
 
 //componente base //
-interface Component {
+public interface Component {
  void render();
 }
 

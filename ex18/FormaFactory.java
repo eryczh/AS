@@ -8,7 +8,6 @@ public class FormaFactory {
      } else if (type.equalsIgnoreCase("triângulo")) {
          return new Triangulo();
      }
-     // Adicione outras implementações para figuras adicionais aqui, se necessário
      return null;
  }
 }

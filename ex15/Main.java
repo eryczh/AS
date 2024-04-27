@@ -4,12 +4,12 @@ public class Main {
     public static void main(String[] args) {
         // criando uma estrutura hierárquica //
         Composite form = new Composite();
-        form.add(new Leaf("Campo de Nome"));
-        form.add(new Leaf("Campo de Email"));
+        form.add(new Leaf("Campo de Nome: "));
+        form.add(new Leaf("Campo de Email: "));
 
         Composite buttonGroup = new Composite();
-        buttonGroup.add(new Leaf("Botão de Envio"));
-        buttonGroup.add(new Leaf("Botão de Cancelamento"));
+        buttonGroup.add(new Leaf("Botão de Envio: "));
+        buttonGroup.add(new Leaf("Botão de Cancelamento: "));
 
         Composite mainPanel = new Composite();
         mainPanel.add(form);
